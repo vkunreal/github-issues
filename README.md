@@ -16,15 +16,15 @@ Server would open on adress [http://localhost:5000](http://localhost:5000).
 
 # Routes
 
-### GET /api/issues/{user_name}/{repo}
+### GET `/api/issues/{user_name}/{repo}`
 
 Returns all issues from repository
 
-### GET /api/issues/{user_name}/{repo}/{id}
+### GET `/api/issues/{user_name}/{repo}/{id}`
 
 Returns one issue from repository by id
 
-### GET /api/issues/sorted/{user_name}/{repo}/{sort}
+### GET `/api/issues/sorted/{user_name}/{repo}/{sort}`
 
 Returns sorted issues from repository
 
